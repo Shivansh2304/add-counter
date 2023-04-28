@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: orange;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+.box{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-align: center;
+}
+#plus{
+
+    border: 2px solid black ;
+    color: rgb(151, 49, 49);
+}
+#minus{
+    border: 2px solid black;
+}
